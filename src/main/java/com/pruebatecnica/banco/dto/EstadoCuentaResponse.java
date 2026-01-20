@@ -1,6 +1,11 @@
 package com.pruebatecnica.banco.dto;
 
 import java.math.BigDecimal;
+/**
+ * DTO de respuesta que representa el estado de una cuenta.
+ * Contiene la información necesaria para exponer el saldo
+ * y movimientos asociados al cliente.
+ */
 
 public class EstadoCuentaResponse {
 
