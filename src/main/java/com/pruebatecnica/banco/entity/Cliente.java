@@ -8,6 +8,11 @@ import jakarta.validation.constraints.Size;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * Entidad que representa un cliente de la entidad financiera.
+ * Contiene la información básica del cliente.
+ */
+
 @Entity
 @Table(name = "clientes")
 public class Cliente {
