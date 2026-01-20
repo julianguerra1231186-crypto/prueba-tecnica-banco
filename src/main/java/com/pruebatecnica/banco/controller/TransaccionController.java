@@ -11,6 +11,10 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+/**
+ * Pruebas unitarias para el controlador de transacciones.
+ * Verifica el comportamiento esperado de los endpoints.
+ */
 
 @RestController
 @RequestMapping("/transacciones")
