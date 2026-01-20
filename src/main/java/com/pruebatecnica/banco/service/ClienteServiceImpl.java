@@ -5,7 +5,10 @@ import com.pruebatecnica.banco.repository.ClienteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+/**
+ * Implementación del servicio de clientes.
+ * Contiene la lógica de negocio relacionada con la gestión de clientes.
+ */
 @Service
 public class ClienteServiceImpl implements ClienteService {
 
